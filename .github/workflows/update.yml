@@ -1,0 +1,35 @@
+name: Update SVGs
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch github-stats
+        run: curl -sSf -o github-stats.svg "https://github-stats.zakiego.workers.dev?username=zakiego"
+
+      - name: Fetch wakatime-stats
+        run: curl -sSf -o wakatime-stats.svg "https://wakatime-stats.zakiego.workers.dev?username=zakiego&range=all_time"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg wakatime-stats.svg
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: refresh stats"
+            git push
+          fi

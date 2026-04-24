@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="268" viewBox="0 0 495 268" role="img" aria-label="Wakatime — All time · 3,682 hrs 18 mins — TypeScript 56.9%, JavaScript 7.1%, JSON 5.8%, Python 5.7%, YAML 4.7%, Other 4.6%, Markdown 2.8%, Go 2.5%">
+  <title>Wakatime — All time · 3,682 hrs 18 mins — TypeScript 56.9%, JavaScript 7.1%, JSON 5.8%, Python 5.7%, YAML 4.7%, Other 4.6%, Markdown 2.8%, Go 2.5%</title>
+  <style>
+    .g { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .header { font-size: 13px; font-weight: 600; fill: #1f2328; }
+    .name   { font-size: 12px; fill: #1f2328; }
+    .pct    { font-size: 12px; fill: #59636e; }
+    .muted  { font-size: 12px; fill: #59636e; }
+    .bar    { fill: #1f2328; }
+    @media (prefers-color-scheme: dark) {
+      .header, .name { fill: #e6edf3; }
+      .pct, .muted   { fill: #8d96a0; }
+      .bar           { fill: #e6edf3; }
+    }
+  </style>
+  <g class="g">
+    <text class="header" x="24" y="32">All time · 3,682 hrs 18 mins</text>
+    <text class="name" x="24" y="68">TypeScript</text>
+    <rect class="bar" x="134" y="58" width="113.86" height="6" rx="1" />
+    <text class="pct"  x="471" y="68" text-anchor="end">56.9%</text>
+    <text class="name" x="24" y="92">JavaScript</text>
+    <rect class="bar" x="134" y="82" width="14.14" height="6" rx="1" />
+    <text class="pct"  x="471" y="92" text-anchor="end">7.1%</text>
+    <text class="name" x="24" y="116">JSON</text>
+    <rect class="bar" x="134" y="106" width="11.60" height="6" rx="1" />
+    <text class="pct"  x="471" y="116" text-anchor="end">5.8%</text>
+    <text class="name" x="24" y="140">Python</text>
+    <rect class="bar" x="134" y="130" width="11.38" height="6" rx="1" />
+    <text class="pct"  x="471" y="140" text-anchor="end">5.7%</text>
+    <text class="name" x="24" y="164">YAML</text>
+    <rect class="bar" x="134" y="154" width="9.30" height="6" rx="1" />
+    <text class="pct"  x="471" y="164" text-anchor="end">4.7%</text>
+    <text class="name" x="24" y="188">Other</text>
+    <rect class="bar" x="134" y="178" width="9.18" height="6" rx="1" />
+    <text class="pct"  x="471" y="188" text-anchor="end">4.6%</text>
+    <text class="name" x="24" y="212">Markdown</text>
+    <rect class="bar" x="134" y="202" width="5.66" height="6" rx="1" />
+    <text class="pct"  x="471" y="212" text-anchor="end">2.8%</text>
+    <text class="name" x="24" y="236">Go</text>
+    <rect class="bar" x="134" y="226" width="5.10" height="6" rx="1" />
+    <text class="pct"  x="471" y="236" text-anchor="end">2.5%</text>
+  </g>
+</svg>

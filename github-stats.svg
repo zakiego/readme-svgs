@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="144" viewBox="0 0 495 144" role="img" aria-label="M. Zakiyuddin Munziri — 4,061 commits · 105 prs · 359 stars · 118 issues">
+  <title>M. Zakiyuddin Munziri — 4,061 commits · 105 prs · 359 stars · 118 issues</title>
+  <style>
+    .g { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .name  { font-size: 16px; font-weight: 600; fill: #1f2328; }
+    .login { font-size: 12px; fill: #59636e; }
+    .num   { font-size: 28px; font-weight: 600; fill: #1f2328; }
+    .label { font-size: 11px; fill: #59636e; }
+    @media (prefers-color-scheme: dark) {
+      .name, .num    { fill: #e6edf3; }
+      .login, .label { fill: #8d96a0; }
+    }
+  </style>
+  <g class="g">
+    <text class="name"  x="24" y="32">M. Zakiyuddin Munziri</text>
+    <text class="login" x="24" y="52">@zakiego</text>
+    <text class="num"   x="24" y="102">4,061</text>
+    <text class="label" x="24" y="120">commits</text>
+    <text class="num"   x="135.75" y="102">105</text>
+    <text class="label" x="135.75" y="120">prs</text>
+    <text class="num"   x="247.5" y="102">359</text>
+    <text class="label" x="247.5" y="120">stars</text>
+    <text class="num"   x="359.25" y="102">118</text>
+    <text class="label" x="359.25" y="120">issues</text>
+  </g>
+</svg>
