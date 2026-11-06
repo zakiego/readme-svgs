@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# Queue overlapping runs so a second push can't race the first one.
+concurrency:
+  group: update-svgs
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
